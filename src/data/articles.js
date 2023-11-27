@@ -1,6 +1,6 @@
 import React from "react";
 
-function article_1() {
+function article_3() {
 	return {
 		date: "7 May 2023",
 		title: "The Benefits of Cloud Computing",
@@ -39,12 +39,12 @@ function article_1() {
 	};
 }
 
-function article_2() {
+function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "2 Nov 2020",
+		title: "Balancing Data to Overcome Imbalance Dataset on Rice Production Prediction",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Rice is one of the results of planting food crops in Indonesia which is one of the staple foods. The high demand for rice production has resulted in a number of regions in Indonesia making its rice granary / rice producing regions with at least eight regions, one of which is in East Java. This continues ...",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
@@ -60,6 +60,6 @@ function article_2() {
 	};
 }
 
-const myArticles = [article_1, article_2];
+const myArticles = [article_1];
 
 export default myArticles;
