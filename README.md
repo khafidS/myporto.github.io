@@ -202,7 +202,7 @@ If you are using Apache as your web server, you can insert this into your .htacc
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
-  RewriteRule . /index.html [L]
+  RewriteRule . /index.html [L] 
 </IfModule>
 ```
 
